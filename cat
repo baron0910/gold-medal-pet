@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金牌鏟屎官｜藍藻益生菌膠囊 - 陪他健康變老</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* 品牌色系 */
+        .bg-spirulina { background-color: #065f46; } 
+        .text-spirulina { color: #065f46; }
+        .bg-gold { background-color: #f59e0b; }
+        .text-gold { color: #d97706; }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background-color: #f59e0b;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- 1. 價值承諾 -->
+    <header class="relative bg-spirulina text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-6xl mx-auto px-4 py-24 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center md:text-left">
+                <div class="inline-block bg-white/10 backdrop-blur-sm px-4 py-1 rounded-full text-amber-400 font-bold tracking-widest text-sm border border-amber-400/30">
+                    全方位寵物機能保健
+                </div>
+                <h1 class="text-4xl md:text-6xl font-black leading-tight">
+                    最好的愛，<br>
+                    是<span class="text-amber-400">陪他健康變老</span>
+                </h1>
+                <p class="text-xl text-emerald-100 font-light leading-relaxed">
+                    <b>金牌鏟屎官</b> 結合了超級食物藍藻與專利益生菌。<br>
+                    一天一顆，幫毛孩建立身體的防護罩，從年輕保養到老。
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
+                    <div class="flex items-center space-x-2 text-sm font-bold bg-emerald-800/50 px-4 py-2 rounded-lg border border-emerald-600">
+                        <i class="fas fa-certificate text-amber-400"></i> <span>專業實驗室嚴格把關</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-sm font-bold bg-emerald-800/50 px-4 py-2 rounded-lg border border-emerald-600">
+                        <i class="fas fa-thumbs-up text-amber-400"></i> <span>98% 毛孩都愛吃</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80" alt="健康快樂的狗狗" class="relative rounded-3xl shadow-2xl border-4 border-white/20 transform rotate-2 hover:rotate-0 transition duration-500">
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. 痛點 (生活化場景) -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 section-title">你有發現毛孩變老了嗎？</h2>
+            <p class="text-gray-500 mb-12">很多時候，毛孩忍著不說，但這些小細節都在求救</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 text-xl text-red-500"><i class="fas fa-bed"></i></div>
+                    <h3 class="font-bold mb-1">不想散步</h3>
+                    <p class="text-xs text-gray-500">走兩步就坐下<br>樓梯爬不動</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 text-xl text-red-500"><i class="fas fa-paw"></i></div>
+                    <h3 class="font-bold mb-1">抓癢抓不停</h3>
+                    <p class="text-xs text-gray-500">半夜抓到破皮<br>反覆戴頭套</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 text-xl text-red-500"><i class="fas fa-cat"></i></div>
+                    <h3 class="font-bold mb-1">身材變瓦斯桶</h3>
+                    <p class="text-xs text-gray-500">吃得不多卻變胖<br>整天懶洋洋</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 text-xl text-red-500"><i class="fas fa-glass-water"></i></div>
+                    <h3 class="font-bold mb-1">喝水量異常</h3>
+                    <p class="text-xs text-gray-500">突然狂喝水<br>或食慾變很差</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-white p-8 rounded-3xl border-l-4 border-amber-500 shadow-lg text-left flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-1">
+                    <h3 class="text-xl font-bold text-spirulina mb-2">別等到生病才後悔！</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        就像我們人吃維他命一樣，毛孩也需要日常保養。
+                        金牌鏟屎官不只是顧腸胃，更是從體質根本調整，幫毛孩把「好的菌」養起來，自然少生病。
+                    </p>
+                </div>
+                <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center text-amber-500 text-2xl flex-shrink-0">
+                    <i class="fas fa-check"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 主要功能 (Visual Diagram) -->
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold section-title">四大守護，一顆搞定</h2>
+                <p class="text-gray-500">不用瓶瓶罐罐，我們把毛孩最需要的都放進去了</p>
+            </div>
+
+            <!-- 視覺化結構圖 -->
+            <div class="relative max-w-5xl mx-auto">
+                <!-- 中央產品圖 (模擬) -->
+                <div class="relative z-10 flex justify-center mb-12 md:mb-0">
+                    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-b from-emerald-50 to-white border-4 border-amber-400/30 flex items-center justify-center shadow-[0_0_60px_rgba(245,158,11,0.2)]">
+                        <div class="text-center">
+                            <div class="text-amber-500 font-black text-xl mb-2">GOLD MEDAL</div>
+                            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=300&q=80" alt="產品罐身" class="w-32 mx-auto drop-shadow-2xl rounded-lg">
+                            <div class="text-spirulina font-bold mt-2">藍藻益生菌</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 四周功能卡片 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:absolute md:inset-0 md:pointer-events-none">
+                    
+                    <!-- Top Left: GO -->
+                    <div class="md:absolute md:top-0 md:left-0 md:w-80 md:pointer-events-auto group">
+                        <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 hover:shadow-xl transition hover:-translate-y-1 relative">
+                            <div class="hidden md:block absolute -right-12 top-1/2 w-12 h-0.5 bg-blue-200"></div>
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-12 bg-blue-500 text-white rounded-xl flex items-center justify-center text-xl shrink-0"><i class="fas fa-running"></i></div>
+                                <div>
+                                    <h3 class="font-bold text-lg text-blue-900">活力跑跳組</h3>
+                                    <span class="text-xs text-blue-600 bg-blue-100 px-2 py-0.5 rounded">對應專利: SYNPET-GO</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600">讓肌肉更有力氣，老了也能開心地追著球跑，上下樓梯不吃力。</p>
+                        </div>
+                    </div>
+
+                    <!-- Top Right: IMMU -->
+                    <div class="md:absolute md:top-0 md:right-0 md:w-80 md:pointer-events-auto group">
+                        <div class="bg-pink-50 p-6 rounded-2xl border border-pink-100 hover:shadow-xl transition hover:-translate-y-1 relative">
+                            <div class="hidden md:block absolute -left-12 top-1/2 w-12 h-0.5 bg-pink-200"></div>
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-12 bg-pink-500 text-white rounded-xl flex items-center justify-center text-xl shrink-0"><i class="fas fa-shield-alt"></i></div>
+                                <div>
+                                    <h3 class="font-bold text-lg text-pink-900">舒緩不癢組</h3>
+                                    <span class="text-xs text-pink-600 bg-pink-100 px-2 py-0.5 rounded">對應專利: SYNPET-IMMU</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600">調整好體質，換季不再抓抓抓，讓毛孩（和你）都能睡個好覺。</p>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Left: FIT -->
+                    <div class="md:absolute md:bottom-0 md:left-0 md:w-80 md:pointer-events-auto group">
+                        <div class="bg-orange-50 p-6 rounded-2xl border border-orange-100 hover:shadow-xl transition hover:-translate-y-1 relative">
+                            <div class="hidden md:block absolute -right-12 top-1/2 w-12 h-0.5 bg-orange-200"></div>
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-12 bg-orange-500 text-white rounded-xl flex items-center justify-center text-xl shrink-0"><i class="fas fa-fire"></i></div>
+                                <div>
+                                    <h3 class="font-bold text-lg text-orange-900">體態輕盈組</h3>
+                                    <span class="text-xs text-orange-600 bg-orange-100 px-2 py-0.5 rounded">對應專利: SYNPET-FIT</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600">幫助能量代謝，就算結紮後或年紀大，也能維持好身材，不怕胖。</p>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Right: TRENAL -->
+                    <div class="md:absolute md:bottom-0 md:right-0 md:w-80 md:pointer-events-auto group">
+                        <div class="bg-purple-50 p-6 rounded-2xl border-2 border-purple-200 hover:shadow-xl transition hover:-translate-y-1 relative shadow-md">
+                            <div class="absolute -top-3 right-4 bg-purple-600 text-white text-xs px-2 py-1 rounded">家長最愛</div>
+                            <div class="hidden md:block absolute -left-12 top-1/2 w-12 h-0.5 bg-purple-200"></div>
+                            <div class="flex items-center gap-4 mb-3">
+                                <div class="w-12 h-12 bg-purple-600 text-white rounded-xl flex items-center justify-center text-xl shrink-0"><i class="fas fa-notes-medical"></i></div>
+                                <div>
+                                    <h3 class="font-bold text-lg text-purple-900">腎臟守護組</h3>
+                                    <span class="text-xs text-purple-600 bg-purple-100 px-2 py-0.5 rounded">對應專利: SYNPET-TRENAL</span>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600">幫忙代謝體內的廢物，減輕腎臟的工作負擔，讓老毛孩維持好食慾。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 科學原理 -->
+    <section class="py-20 bg-spirulina text-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">為什麼我們比別人有效？</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-amber-400">秘密武器：螺旋藻（藍藻）</h3>
+                    <p class="text-emerald-100 mb-6 leading-relaxed">
+                        如果說益生菌是「士兵」，那藍藻就是士兵的「超級便當」。
+                        我們特別添加藍藻，不只能給益生菌營養，讓好菌活得更好，它本身更是超級食物！
+                    </p>
+                    <div class="space-y-4">
+                        <div class="bg-white/10 p-4 rounded-xl flex items-center">
+                            <i class="fas fa-broom text-3xl text-amber-400 mr-4"></i>
+                            <div>
+                                <span class="font-bold block text-lg">幫身體「大掃除」</span>
+                                <span class="text-sm text-emerald-200">清除體內累積的壞東西，抵抗老化</span>
+                            </div>
+                        </div>
+                        <div class="bg-white/10 p-4 rounded-xl flex items-center">
+                            <i class="fas fa-heartbeat text-3xl text-amber-400 mr-4"></i>
+                            <div>
+                                <span class="font-bold block text-lg">維護心血管健康</span>
+                                <span class="text-sm text-emerald-200">調節血脂，讓循環更順暢</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 relative">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-amber-500 text-black font-bold px-4 py-1 rounded-full text-sm">一加一大於二</div>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-white text-spirulina flex items-center justify-center font-bold text-lg">1</div>
+                            <div>
+                                <h4 class="font-bold">防護力 UP</h4>
+                                <p class="text-xs text-emerald-200">身體的衛兵變強壯，不怕壞菌入侵</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-white text-spirulina flex items-center justify-center font-bold text-lg">2</div>
+                            <div>
+                                <h4 class="font-bold">代謝力 UP</h4>
+                                <p class="text-xs text-emerald-200">吃進去的營養更好吸收，壞的更好排出</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-white text-spirulina flex items-center justify-center font-bold text-lg">3</div>
+                            <div>
+                                <h4 class="font-bold">活力值 UP</h4>
+                                <p class="text-xs text-emerald-200">精神變好，眼睛更明亮</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 貼心設計 -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold section-title">家長最在意的，我們都想到了</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-500 mb-4"><i class="fas fa-capsules"></i></div>
+                    <h4 class="font-bold mb-2">膠囊設計好保存</h4>
+                    <p class="text-sm text-gray-500">不用擔心受潮結塊，確保每一顆吃下去都是新鮮的。</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-500 mb-4"><i class="fas fa-smile"></i></div>
+                    <h4 class="font-bold mb-2">挑嘴貓狗也愛吃</h4>
+                    <p class="text-sm text-gray-500">淡淡的海苔香氣（藍藻原味），拌在罐罐裡直接秒殺。</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-500 mb-4"><i class="fas fa-check-circle"></i></div>
+                    <h4 class="font-bold mb-2">從小吃到老</h4>
+                    <p class="text-sm text-gray-500">成分溫和天然，幼貓幼犬到老爺爺老奶奶都能安心吃。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. 負擔很少 -->
+    <section class="py-16 bg-white border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+            <div class="flex-1">
+                <h2 class="text-3xl font-bold mb-4">一天不到一杯飲料錢</h2>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    看過醫生都知道，醫藥費動不動就幾千幾萬。
+                    比起生病後的辛苦治療，每天一點點的銅板價保養，是給毛孩最划算的健康投資。
+                </p>
+                <div class="flex gap-4">
+                    <div class="px-4 py-2 bg-green-100 text-green-700 rounded-lg text-sm font-bold">成分天然</div>
+                    <div class="px-4 py-2 bg-green-100 text-green-700 rounded-lg text-sm font-bold">無依賴性</div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3">
+                <img src="https://images.unsplash.com/photo-1535930749574-1399327ce78f?auto=format&fit=crop&w=600&q=80" alt="輕鬆陪伴" class="rounded-full shadow-xl aspect-square object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. 五合一展示 -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold section-title">為什麼選擇金牌鏟屎官？</h2>
+                <p class="text-xl text-gray-600">因為我們相信：<span class="text-amber-500 font-bold">簡單，才是最好的保養</span></p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8 relative">
+                <!-- 左側：瓶瓶罐罐 -->
+                <div class="flex-1 grid grid-cols-2 gap-4 w-full md:max-w-md">
+                    <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-500"><i class="fas fa-bacteria"></i></div>
+                        <div class="text-base font-bold text-gray-700">腸胃益生菌</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-500"><i class="fas fa-bone"></i></div>
+                        <div class="text-base font-bold text-gray-700">關節保養品</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-500"><i class="fas fa-hand-sparkles"></i></div>
+                        <div class="text-base font-bold text-gray-700">皮膚舒敏粉</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-md border border-gray-200 flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-500"><i class="fas fa-weight"></i></div>
+                        <div class="text-base font-bold text-gray-700">體態代謝粉</div>
+                    </div>
+                    <div class="col-span-2 bg-white p-4 rounded-xl shadow-md border border-gray-200 flex items-center justify-center space-x-3">
+                        <div class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-500"><i class="fas fa-notes-medical"></i></div>
+                        <div class="text-base font-bold text-gray-700">腎臟保健品</div>
+                    </div>
+                </div>
+
+                <!-- 中間：加號 -->
+                <div class="text-center z-10">
+                     <div class="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center text-white text-2xl font-black shadow-lg transform md:rotate-0 rotate-90 mx-auto">
+                        <i class="fas fa-plus md:block hidden"></i>
+                        <i class="fas fa-arrow-down md:hidden block"></i>
+                     </div>
+                     <div class="mt-2 font-bold text-amber-600 bg-amber-100 px-3 py-1 rounded-full text-xs">ALL IN ONE</div>
+                </div>
+
+                <!-- 右側：金牌鏟屎官 -->
+                <div class="flex-1 w-full md:max-w-md">
+                    <div class="bg-gradient-to-br from-spirulina to-emerald-900 text-white p-8 rounded-3xl shadow-2xl relative overflow-hidden transform hover:scale-105 transition duration-300">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-2xl"></div>
+                        <div class="text-center mb-6">
+                            <h3 class="text-2xl font-black mb-1 text-amber-400">金牌鏟屎官</h3>
+                            <p class="text-amber-200 text-sm font-bold">全方位藍藻益生菌</p>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-amber-400"></i>
+                                <span class="font-bold text-amber-400">腸胃菌叢平衡</span>
+                            </div>
+                            <div class="flex items-center space-x-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-amber-400"></i>
+                                <span class="font-bold text-amber-400">關節活動力 UP</span>
+                            </div>
+                            <div class="flex items-center space-x-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-amber-400"></i>
+                                <span class="font-bold text-amber-400">皮膚舒敏不抓癢</span>
+                            </div>
+                            <div class="flex items-center space-x-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-amber-400"></i>
+                                <span class="font-bold text-amber-400">促進代謝不發胖</span>
+                            </div>
+                            <div class="flex items-center space-x-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm border border-amber-400/50">
+                                <i class="fas fa-star text-amber-400"></i>
+                                <span class="font-bold text-amber-400">獨家腎臟保健</span>
+                            </div>
+                        </div>
+                        <div class="mt-8 text-center">
+                            <span class="bg-amber-500 text-black text-sm font-black px-4 py-2 rounded-full shadow-lg">一顆就搞定！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-500 mt-12 text-sm">
+                * 減少餵食壓力，也減輕荷包負擔。聰明家長的新選擇。
+            </p>
+        </div>
+    </section>
+
+    <!-- 8. 容易使用 -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold section-title mb-12">簡單三步驟，健康帶著走</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group">
+                    <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center text-3xl text-gray-400 group-hover:bg-amber-500 group-hover:text-white transition duration-300 mx-auto mb-4">1</div>
+                    <h4 class="font-bold text-lg">轉開膠囊</h4>
+                    <p class="text-gray-500 text-sm mt-2">輕輕一轉就打開，不費力</p>
+                </div>
+                <div class="group">
+                    <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center text-3xl text-gray-400 group-hover:bg-amber-500 group-hover:text-white transition duration-300 mx-auto mb-4">2</div>
+                    <h4 class="font-bold text-lg">撒入食物</h4>
+                    <p class="text-gray-500 text-sm mt-2">拌在乾乾、罐罐或水裡</p>
+                </div>
+                <div class="group">
+                    <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center text-3xl text-gray-400 group-hover:bg-amber-500 group-hover:text-white transition duration-300 mx-auto mb-4">3</div>
+                    <h4 class="font-bold text-lg">開心享用</h4>
+                    <p class="text-gray-500 text-sm mt-2">好吃不影響口感，毛孩超愛</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">家長們常問的問題</h2>
+            <div class="space-y-4">
+                <details class="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+                    <summary class="list-none flex justify-between items-center font-bold text-gray-800">
+                        Q: 腎臟不好的貓咪可以吃嗎？
+                        <i class="fas fa-chevron-down text-gray-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="mt-4 text-gray-600 text-sm leading-relaxed border-t border-gray-200 pt-4">
+                        A: 可以的！這款益生菌特別設計了保護腎臟的配方，能幫忙減輕身體負擔。不過如果毛孩正在吃藥，建議先問問醫生，並且跟藥物隔開 2 小時吃喔。
+                    </p>
+                </details>
+                <details class="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+                    <summary class="list-none flex justify-between items-center font-bold text-gray-800">
+                        Q: 健康的貓狗需要吃嗎？
+                        <i class="fas fa-chevron-down text-gray-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="mt-4 text-gray-600 text-sm leading-relaxed border-t border-gray-200 pt-4">
+                        A: 當然可以！就像我們平常也會吃益生菌保養一樣。每天吃可以顧腸胃、皮膚，還能維持好體態，預防勝於治療嘛！
+                    </p>
+                </details>
+                <details class="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+                    <summary class="list-none flex justify-between items-center font-bold text-gray-800">
+                        Q: 需要冰冰箱嗎？
+                        <i class="fas fa-chevron-down text-gray-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="mt-4 text-gray-600 text-sm leading-relaxed border-t border-gray-200 pt-4">
+                        A: 放在陰涼乾燥的地方（像是抽屜、櫃子）不要曬到太陽就可以了。如果家裡比較熱，冰在冰箱冷藏也是可以的喔！
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-600 py-10 text-center text-xs">
+        <div class="max-w-6xl mx-auto px-4">
+            <p>&copy; 2026 金牌鏟屎官. All Rights Reserved.</p>
+            <p class="mt-2">本產品非藥品，若毛孩有急症或特殊疾病，請先諮詢獸醫師。</p>
+        </div>
+    </footer>
+
+</body>
+</html>
